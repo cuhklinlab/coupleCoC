@@ -12,7 +12,7 @@ load('data/example4_S_label.mat');
 [X, Y, Cx_truth, Cy_truth] = removal_rowcol(X, Y, Cx_truth, Cy_truth);
 %%coupleCoC 
 %tuning parameters
-iter = 15; lambda = 1;nrowcluster1 = 8;nrowcluster2 = 7;ncolcluster = 15;
+iter = 15; lambda = 2;nrowcluster1 = 8;nrowcluster2 = 7;ncolcluster = 15;
 %coupleCoC - step 1
 [Cx, Cy, Cz, cluster_p, cluster_q, obj] = coupleCoCs(X,Y,nrowcluster1,nrowcluster2,ncolcluster,iter,lambda);
 %clustering performance
