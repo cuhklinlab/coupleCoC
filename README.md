@@ -7,3 +7,4 @@ as well as the code at https://github.com/sykim122/STC.
 
 (2) Please run "coupleCoC_ex1.m"/"coupleCoC_ex2.m"/"coupleCoC_ex3.m"/"coupleCoC_ex4.m" for the real data analysis
 
+Note that because the coupleCoC algorithm requires the random initialization, the clustering results might be a little different from those presented in the paper.
